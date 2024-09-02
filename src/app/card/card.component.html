@@ -1,0 +1,15 @@
+<h1 id="Title">Contents</h1>
+<div id="CardGrid">
+    <div id="CardItem" *ngFor="let item of dataName">
+      <div id="CardContainer">
+        <h1 id="CardTitle">{{ item.name }}</h1>
+        <img src="{{ item.imageLink }}" alt="{{ item.name }}">
+        <p>{{ item.description }}</p>
+        <div id="CardLinks">
+          <button id="video"><a href="{{ item.videoLink }}">Watch Video</a></button>
+          <button id="story"><a href="">Read Story</a></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  

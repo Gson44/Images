@@ -1,0 +1,27 @@
+#HeaderContainer {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 60px;    
+    max-width: 100%;
+    box-shadow: gray 0px 10px 10px;
+}
+
+#HeaderContainer ul {
+    display: flex;
+    justify-content: space-around;
+}
+#HeaderContainer li {
+   list-style-type: none;
+}
+
+#HeaderContainer a {
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: black 5px 5px 15px;
+}
+
+#HeaderContainer a:hover {
+    color:rgb(255, 210, 151);
+}

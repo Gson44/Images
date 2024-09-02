@@ -1,0 +1,16 @@
+#FooterContainer {
+   display: flex;
+   justify-content: center;
+   align-items: end;
+    position:relative;
+    bottom: 0;
+    margin: auto;
+    max-width: 100%;
+    background-color: rgb(0, 0, 0);
+    padding:40px;
+}
+
+#FooterContainer h1 {
+    color: white; 
+    
+}

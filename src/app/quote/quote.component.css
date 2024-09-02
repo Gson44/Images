@@ -1,0 +1,16 @@
+#QuoteContainer {
+    text-align: center;
+    background: linear-gradient(to right, rgb(248, 189, 101), rgb(189, 88, 88));
+    padding:450px;
+    margin-top: 1px;
+    margin-bottom: 100px;
+    max-width: 100%;
+   
+}
+
+#QuoteContainer h2 {
+    font-size: 3em;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: black 10px 0px 10px;
+}

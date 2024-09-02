@@ -1,0 +1,32 @@
+{
+    "quitting": [
+        {
+            "id":0,
+            "name": "Why I'm Quitting Web Dev",
+            "imageLink": "https://i.imgur.com/32dKQcM.jpeg",
+            "description": "This video is about my experience in Web Development",
+            "videoLink": "https://youtu.be/XBvUVgqtbuY",
+            "storyLink": ""
+            
+        },
+        {
+            "id":1,
+            "name": "Why I'm Quitting Coffee",
+            "imageLink": "https://i.imgur.com/5OZxrWv.jpeg",
+            "description": "This video is about my addiction to coffee. Hope you enjoy.",
+            "videoLink": "https://youtu.be/MygLqTBsD70",
+            "storyLink": ""
+            
+        },
+        {
+            "id":2,
+            "name": "Why I'm Quitting Smoking",
+            "imageLink": "https://i.imgur.com/Xo06Ixv.jpeg",
+            "description": "This video is about my personal bad habit, cigerattes.",
+            "videoLink": "https://youtu.be/OazGeA6IFbU",
+            "storyLink": ""
+
+        }
+
+    ]
+}

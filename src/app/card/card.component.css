@@ -1,0 +1,79 @@
+#Title {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5.5em;
+    font-weight: 500;
+    background-image: linear-gradient(to right, rgb(255, 163, 163), rgb(255, 97, 34));
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+   
+    margin-top: 300px 
+}
+#CardGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    grid-auto-rows: minmax(55px, auto);
+    margin-bottom: 300px 
+}
+#CardContainer {
+    background-color: rgb(226, 173, 103);
+    padding:50px 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    box-shadow: gray 15px 15px 15px;
+    border-radius: 30px;
+}
+
+#CardContainer h1 {
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+    font-size: 2.5em;
+    color:rgb(255, 255, 255);
+    font-weight: 700;
+}
+#CardContainer p {
+    font-size: 2em;
+    margin-top: 40px;
+    color: white;
+}
+
+#CardContainer img {
+    height: auto;
+    width: 100%;
+    margin: auto;
+    border-radius: 30px;
+}
+
+#CardLinks button {
+    padding:20px;
+    font-size: 2em;
+    margin: 10px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: black 10px 10px 10px;
+}
+
+#CardLinks a {
+    text-decoration: none;
+    color: black;
+}
+#CardLinks #video {
+    background-color: red;
+    
+}
+#CardLinks #video:hover {
+    background-color: rgb(201, 6, 6);
+}
+#CardLinks #video a {
+    color:white;
+}
+#CardLinks #story:hover {
+    background-color: rgb(219, 219, 219);
+}
